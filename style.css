@@ -1,0 +1,133 @@
+/* :root {
+    --light-gray: lightgrey;
+    --light-blue: lightblue;
+}
+
+body {
+    margin: 0;
+}
+
+#app-calendar {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.day {
+    border-bottom: 1px solid var(--light-gray);
+    border-right: 1px solid var(--light-gray);
+    text-align: center;
+    padding-top: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 200ms, color 200ms;
+}
+.name {
+    padding-bottom: 5px;
+}
+
+.weekend {
+    color: var(--light-blue);
+}
+
+.selected {
+    background-color: var(--light-blue);
+    color: white;
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html, body {
+    height:100%;
+}
+
+body {
+    background-color:lightcyan
+}
+
+.jumbotron {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: lavenderblush;
+    text-align: center;
+
+}
+
+/* .container {
+  text-align: center;
+} */
+
+.description{
+    white-space: pre-wrap;
+  }
+  
+  .time-block{
+    /* text-align: center; */
+    border-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 90px;
+    border-top: 1px solid white;;
+   
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    /* border-top: 1px dashed #000000; */
+    border-top: 1px solid #000000;
+    margin-bottom: 10px;
+      
+  }
+
+
+  .past {
+    background-color: lightgrey;
+    color: white;
+    font-size: 20px;
+    text-shadow: black 1px 1px;
+}
+
+  .present {
+    background-color: #ff6961;
+    color: white;
+  }
+  
+  .future {
+    background-color: #77dd77;
+    color: white;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
+
+  /* .present {
+    background-color: #ff6961;
+    color: white;
+    font-size: 30px;
+    text-shadow: black 2px 2px;
+  }
+
+  .future {
+    background-color: #77dd77;
+    color: white;
+    font-size: 30px;
+    text-shadow: black 2px 2px;
+  } */
