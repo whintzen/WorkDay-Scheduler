@@ -60,7 +60,7 @@ In localhost, right click on the `index.html` file and open in browser.   Once t
 
 To view the [Deployed](https://whintzen.github.io/Weather-Dashboard/index.html) App, you can clicked on `Deployed` which will open the App in Github.   Once the WorkDay-Scheduler app is rendered in the browser, enter your workday schedule into each timeslot text area.  
 
-Check out the [ScreenShot](https://github.com/whintzen/WorkDay-Scheduler/blob/master/images/Screenshot-Home.png),[ScreenShot](https://github.com/whintzen/WorkDay-Scheduler/blob/master/images/Screenshot-Local-Storage.png) of what the App looks like.
+Check out the [Home Page ScreenShot](https://github.com/whintzen/WorkDay-Scheduler/blob/master/images/Screenshot-Home.png), and [Local Storage ScreenShot](https://github.com/whintzen/WorkDay-Scheduler/blob/master/images/Screenshot-Local-Storage.png) of what the App looks like.
 
 ## License
 
