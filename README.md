@@ -56,9 +56,7 @@ THEN the saved events persist
 
 ## Instructions
 
-In localhost, right click on the `index.html` file and open in browser.   Once the WorkDay-Scheduler app is rendered in the browser, enter your workday schedule into each timeslot text area.  
-
-To view the [Deployed](https://whintzen.github.io/Weather-Dashboard/index.html) App, you can clicked on `Deployed` which will open the App in Github.   Once the WorkDay-Scheduler app is rendered in the browser, enter your workday schedule into each timeslot text area.  
+To view the [Deployed](https://whintzen.github.io/WorkDay-Scheduler/index.html) App, you can clicked on `Deployed` which will open the App in Github.   Once the WorkDay-Scheduler app is rendered in the browser, enter your workday schedule into the timeslot text area and click on the `save` button.  Please note, if you open the browser after 9 AM, any time slots prior to your current time will be `greyed` out.  Current time will be `blue` and future time will be `purple`.   Once you have saved a work schedule, `right` click and open the `inspect`.  On the menu option, go to `Application` and `Local Storage` and the entries you have saved is displayed in Local Storage.
 
 Check out the [Home Page ScreenShot](https://github.com/whintzen/WorkDay-Scheduler/blob/master/images/Screenshot-Home.png), and [Local Storage ScreenShot](https://github.com/whintzen/WorkDay-Scheduler/blob/master/images/Screenshot-Local-Storage.png) of what the App looks like.
 
