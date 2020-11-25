@@ -1,7 +1,7 @@
-# :open_umbrella: 05 Third-Party APIs: Work Day Scheduler :closed_umbrella:
+# :memo: 05 Third-Party APIs: Work Day Scheduler :calendar:
   
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) 
 
 
 ## Description 
@@ -60,7 +60,7 @@ In localhost, right click on the `index.html` file and open in browser.   Once t
 
 To view the [Deployed](https://whintzen.github.io/Weather-Dashboard/index.html) App, you can clicked on `Deployed` which will open the App in Github.   Once the WorkDay-Scheduler app is rendered in the browser, enter your workday schedule into each timeslot text area.  
 
-Check out the [ScreenShot](https://github.com/whintzen/Weather-Dashboard/blob/master/assets/images/Screenshot.png) of what the App looks like.
+Check out the [ScreenShot](https://github.com/whintzen/WorkDay-Scheduler/blob/master/images/Screenshot-Home.png),[ScreenShot](https://github.com/whintzen/WorkDay-Scheduler/blob/master/images/Screenshot-Local-Storage.png) of what the App looks like.
 
 ## License
 
