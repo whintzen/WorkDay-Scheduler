@@ -7,7 +7,7 @@ function getDescription() {
         // assigns the current date
     $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
 
-        // Gets the saved the information entered in the textarea/description from local storage
+        // Gets the saved information entered in the textarea/description from local storage
     $(".time-block").each(function () {
         var id = $(this).attr("id");
         var description = localStorage.getItem(id);
