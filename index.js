@@ -1,19 +1,13 @@
 
-var hour9 = $("#hour-9");
-var hour10 = $("#hour-10");
-var hour11 = $("#hour-11");
-var hour12 = $("#hour-12");
-var hour1 = $("#hour-13");
-var hour2 = $("#hour-14");
-var hour3 = $("#hour-15");
-var hour4 = $("#hour-16");
-var hour5 = $("#hour-17");
+
 var time = moment();
 
 function getDescription() {
 
+        // assigns the current date
     $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
 
+        // Saves the information entered in the textarea/description to local storage
     $(".time-block").each(function () {
         var id = $(this).attr("id");
         var description = localStorage.getItem(id);
@@ -27,16 +21,21 @@ function getDescription() {
 getDescription();
 
 var saveBtn = $(".saveBtn");
-
+  
+// This step will save the information entered into a specific timeslot 
+// text area to be saved to local storage when I click the save button
 saveBtn.on("click", function () {
-    var timeSlot = $(this).parent().attr("id");
+    var time = $(this).parent().attr("id");
     var description = $(this).siblings(".description").val();
 
-    localStorage.setItem(timeSlot, description);
+    localStorage.setItem(time, description);
 });
 
+// This step based on the time of day will determine if the schedule task time
+// is in the future, the present or in the past. 
 function pastPresentFuture() {
     hour = time.hours();
+    console.log(hour);
     $(".time-block").each(function () {
         var blockHour = parseInt($(this).attr("id"));
 
@@ -45,9 +44,13 @@ function pastPresentFuture() {
         }
         else if (blockHour === hour) {
             $(this).addClass("present");
+            $(this).removeClass("future")
         }
         else {
             $(this).addClass("past");
+            $(this).removeClass("present")
+            $(this).removeClass("future")
+
         }
     })
 }
